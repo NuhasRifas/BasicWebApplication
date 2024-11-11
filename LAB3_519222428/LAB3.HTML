@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="emp_db_con.php">
+        <h1>
+           ADD AND VIEW EMPLOYEE DEPARTMENT RECORDS 
+        </h1>
+        <table>
+           
+            <tr>
+                <td> <label>Employee Department</label></td>
+                <td><input type="text" id="emp_dept" name="emp_dept"></td>
+            </tr>
+            <tr>
+                <td> <label>Department Type</label></td>
+                <td><input type="text" id="dept_type" name="dept_type"></td>
+            </tr>
+            <tr>
+                <td> <label>Employee Department Number</label></td>
+                <td><input type="number" id="emp_dept_no" name="emp_dept_no"></td>
+            </tr>        
+        </table><br> <br> <br>
+        <input type="submit" name="action" value="SUBMIT">
+        <input type="submit" name="action" value="SEARCH">
+       </form>
+</body>
+</html>
